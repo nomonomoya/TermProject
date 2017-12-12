@@ -71,7 +71,11 @@
                 android:background="@color/colorPrimary"/>
 
         </LinearLayout>
-
+        <FrameLayout
+            android:layout_width="@+id/flDrawer"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/drawer_end_offset"
+            android:layout_gravity="start"></FrameLayout>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
